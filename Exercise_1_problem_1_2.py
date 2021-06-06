@@ -63,13 +63,15 @@ except Exception as e:
 #   
 
 
-# YOUR CODE HERE 4 to define create_poly_geom(coords)
-create_poly_geom()
+# YOUR CODE HERE 4 to define create_poly_geom()
+create_poly_geom(coords){
+coords = Polygon([[p.x, p.y] for p in [point1, point2, point3]])
+}
 
 # Demonstrate the usage of the function. For example, create a Polygon with three points: `(45.2, 22.34)`, `(100.22, -3.20)` & `(70.0, 10.20)`.
 
 # YOUR CODE HERE 5 to define poly1 with three points
-poly1 = 
+poly1 = Polygon([(45.2, 22.34), (100.22, -3.20), (70.0, 10.20)])
 
 # CODE FOR TESTING YOUR SOLUTION
 print(poly1)
