@@ -102,6 +102,12 @@ except Exception as e:
 # 
 
 #  YOUR CODE HERE 6 to define get_centroid()
+get_centroid(geom){
+    line1 = LineString([geom])
+    poly = Polygon([[p.x, p.y] for p in [geom]])
+
+assert ==
+}
 
 # Test and demonstrate the usage of the function. You can, for example, create shapely objects using the functions you created in problem 1 and print out information about their centroids:
 # 
