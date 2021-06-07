@@ -9,6 +9,7 @@
 # 
 
 # YOUR CODE HERE 1 to read the file
+pandas.read_table(data/travelTimes_2015_Helsinki.txt)
 #raise NotImplementedError()
 import pandas as pd 
 
